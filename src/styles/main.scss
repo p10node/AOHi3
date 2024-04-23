@@ -1,0 +1,47 @@
+// Copyright 2024 pierreneter. All rights reserved.
+
+@import "./tailwind.css";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+// https://colorhunt.co/palette/22283131363f76abaeeeeeee
+
+body {
+  @extend .dm-sans-500;
+  background-color: #222831;
+  color: #EEEEEE;
+}
+
+.main-bg-color {
+  background-color: #222831;
+}
+
+
+.popup-background {
+  background: rgba(255, 227, 227, 0.1) !important;
+  backdrop-filter: blur(3px) !important;
+}
+
+
+.dm-sans-500 {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.border-color-common {
+  border-color: #31363F;
+}
+
+.banner-bg {
+  background: url("/images/logomark.svg") #76ABAE;
+  background-size: 350px auto;
+}
+
+body .w-md-editor-text-pre>code,
+body .w-md-editor-text-input {
+  font-size: 23px !important;
+  line-height: 24px !important;
+  font-weight: 300;
+}
